@@ -1,4 +1,10 @@
+/build
+/googletest
+/.pytest_cache
+/__pycache__
+/llvm.sh
 *.env
 *.exe
 *.o
 *.out
+
