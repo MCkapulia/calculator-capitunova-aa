@@ -108,4 +108,4 @@ run-integration-tests: build/app.exe venv tests/integration/test_integration.py
 	 
 clang-format:
 	@echo "Running clang-format..."
-	find . -regex '.*\.\(h\|c\|cpp\)$$' -exec clang-format -i {} +
+	find . -regex '.*\.\(h\|c\|cpp\)$$' -exec clang-format --style=file -i {} +
